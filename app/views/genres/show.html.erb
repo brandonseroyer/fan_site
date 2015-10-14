@@ -1,6 +1,24 @@
 <h1><%= @genre.name %></h1>
 
-<p><%= link_to "Return to genres", genres_path %></p>
+<% if @genre.artist.any? %>
+<h4>Here are the artists for this genre:</h4>
+
+<ul>
+  <% @genre.artists.each do |artist| %>
+  <li>
+    <%= link_to artist.name, genre_artist_path(@genre, artist) %> |
+    <%= link_to "Edit", edit_genre_artist_path(@genre, artist) %> |
+    <%= link_to "Delete", genre_artist_path(@genre, artist),
+    :data => {:confirm => "Are you sure?",
+      :method => "delete"} %>
+    </li>
+    <% end %>
+  </ul>
+  <% else %>
+  <p> There are no artists yet!</p>
+  <% end %>
+
+  <p><%= link_to "Add an Artist", new_genre_artist_path(@genre) %></p>
 
 <hr>
 <ul>
