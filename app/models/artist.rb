@@ -4,4 +4,6 @@ class Artist < ActiveRecord::Base
   validates :name, :presence => true
   validates :review, :presence => true
 
+  default_scope {order("name")}
+
 end
