@@ -1,15 +1,17 @@
-<h1>Genres</h1>
-
+<h1>JAM BOX</h1>
+<i><p>The worlds leading online music review vault!</p></i>
+<hr>
+<h3>Music Genres</h3>
 <ul>
   <% @genres.each do |genre| %>
   <li><%= link_to genre.name, genre_path(genre) %></li>
-  <ul>
+  <!-- <ul>
   <% genre.artists.each do |artist| %>
   <li>
     <%= link_to artist.name, genre_artist_path(genre, artist) %>
   </li>
   <% end %>
-</ul>
+</ul> -->
 <% end %>
 </ul>
 
