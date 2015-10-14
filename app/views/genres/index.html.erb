@@ -6,7 +6,7 @@
   <ul>
   <% genre.artists.each do |artist| %>
   <li>
-    <%= link_to artist.name, artist.review, genre_artist_path(genre, artist) %>
+    <%= link_to artist.name, genre_artist_path(genre, artist) %>
   </li>
   <% end %>
 </ul>
