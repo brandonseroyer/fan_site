@@ -1,49 +1,49 @@
-
-@@ -1,17 +1,19 @@
  == README
--Fan Site allows you to add genres, bands, and reviews to the band you submit.
-+# _JAM BOX_
+Fan Site allows you to add genres, bands, and reviews to the band you submit.
+# _JAM BOX_
  
--By Brandon Seroyer and Tyler Finley
-+#### _Jam Box allows you to add genres, bands, and reviews to the band you submit._
+By Brandon Seroyer and Tyler Finley
+#### _Jam Box allows you to add genres, bands, and reviews to the band you submit._
  
--Set-up
--1.Clone to desktop
--2.Start Postgres
--3.Rake db:create
--4.Rake db:migrate
--5.Start rails server (rails s)
--6.Go to localhost:3000/genres
-+### By _**Brandon Seroyer and Tyler Finley**_
+Set-up
+1.Clone to desktop
+2.Start Postgres
+3.Rake db:create
+4.Rake db:migrate
+5.Start rails server (rails s)
+6.Go to localhost:3000/genres
+### By _**Brandon Seroyer and Tyler Finley**_
  
--Description
-+## Set-up
-+_1.Clone to desktop_
-+_2.Start Postgres_
-+_3.Rake db:create_
-+_4.Rake db:migrate_
-+_5.Start rails server (rails s)_
-+_6.Go to localhost:3000/genres_
-+
-+## Description
+##Description
+
+## Set-up
+_1.Clone to desktop_
+_2.Start Postgres_
+_3.Rake db:create_
+_4.Rake db:migrate_
+_5.Start rails server (rails s)_
+_6.Go to localhost:3000/genres_
+
+## Description
  
  Users can:
  
- @@ -20,10 +22,13 @@ create a band
+ create a band
  write a review for each band
  edit/delete genre name, band, and review
  
--Ruby on rails
--ActiveRecord
--Bootstrap
--Legal
-+## Technologies Used
-+_Ruby on rails_
-+_ActiveRecord_
-+_Bootstrap_
-+_SASS_
-+
-+###Legal
+Ruby on rails
+ActiveRecord
+Bootstrap
+Legal
+
+## Technologies Used
+_Ruby on rails_
+_ActiveRecord_
+_Bootstrap_
+_SASS_
+
+###Legal
  
- Copyright (c) 2015 Brandon Seroyer and Tyler Finley
+ Copyright (c) 2015 **_Brandon Seroyer and Tyler Finley_**
  
