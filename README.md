@@ -18,7 +18,7 @@ _3.Rake db:create_
 
 _4.Rake db:migrate_ 
 
-_5.Start rails server (rails s) _
+_5.Start rails server (rails s)_
 
 _6.Go to localhost:3000/genres_
 
