@@ -12,8 +12,10 @@ class ReviewsController < ApplicationController
   end
 
   def create
+  
     @artist = Artist.find(params[:artist_id])
     @review = @artist.reviews.new(review_params)
+    @review.rating = params[:rating]
     if @review.save
       redirect_to genre_path(@artist.genre)
     else

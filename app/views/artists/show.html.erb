@@ -1,10 +1,11 @@
 <h1><%=  @artist.name %></h1>
 <hr>
 <% if @artist.reviews.any? %>
-<h4>Here are the reviews for this artist:</h4>
+<h3>Here are the reviews for this artist:</h3>
 <ul>
   <% @artist.reviews.each do |review| %>
-  <br><li><%= review.critique %></li>
+  <br><li><b>User Review: </b><i><%= review.critique %></i></li>
+  <li><b>User Rating: </b><i><%= review.rating %> Stars</i></li>
     <% end %>
 
   </ul>
