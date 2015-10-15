@@ -11,11 +11,16 @@ _create a genre create a band write a review for each band edit/delete genre nam
 
 #### Installation
 _1.Clone to desktop_
-2.Start Postgres 
-3.Rake db:create 
-4.Rake db:migrate 
-5.Start rails server (rails s) 
-6.Go to localhost:3000/genres
+
+_2.Start Postgres_ 
+
+_3.Rake db:create_ 
+
+_4.Rake db:migrate_ 
+
+_5.Start rails server (rails s) _
+
+_6.Go to localhost:3000/genres_
 
 ## Technologies Used
 
