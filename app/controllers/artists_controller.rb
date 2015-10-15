@@ -44,5 +44,5 @@ end
 
 private
 def artist_params
-  params.require(:artist).permit(:name, :review)
+  params.require(:artist).permit(:name)
 end

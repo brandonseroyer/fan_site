@@ -1,4 +1,19 @@
 <h1><%=  @artist.name %></h1>
-<h3><%=  @artist.review %></h3>
 <hr>
-<p><%= link_to "Return to Genres", genres_path %><p>
+<% if @artist.reviews.any? %>
+<h4>Here are the reviews for this artist:</h4>
+<ul>
+  <% @artist.reviews.each do |review| %>
+  <br><li><%= review.critique %></li>
+    <% end %>
+
+  </ul>
+  <% else %>
+  <p> There are no reviews yet!</p>
+  <% end %>
+
+
+<br>
+<%= link_to "Add a Review", new_artist_review_path(@artist) %>
+<hr>
+<p><%= link_to "Return to Artists", genre_path(@genre) %><p>

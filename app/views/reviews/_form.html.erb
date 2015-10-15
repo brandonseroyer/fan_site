@@ -1,0 +1,8 @@
+<%= render('layouts/errors', :object => @review) %>
+
+<%= form_for [@genre, @artist, @review] do |f| %>
+<%= f.label :critique %>
+<%= f.text_area :critique %>
+<p><%= f.submit %></p>
+
+<% end %>

@@ -6,13 +6,6 @@
 <ul>
   <% @genres.each do |genre| %>
   <li><%= link_to genre.name, genre_path(genre) %></li>
-  <!-- <ul>
-  <% genre.artists.each do |artist| %>
-  <li>
-    <%= link_to artist.name, genre_artist_path(genre, artist) %>
-  </li>
-  <% end %>
-</ul> -->
 <% end %>
 </ul>
 
