@@ -10,7 +10,7 @@ _create a genre create a band write a review for each band edit/delete genre nam
 
 
 #### Installation
-Set-up 1.Clone to desktop
+_1.Clone to desktop_
 2.Start Postgres 
 3.Rake db:create 
 4.Rake db:migrate 
