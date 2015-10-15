@@ -1,0 +1,33 @@
+Is the Github documentation - commits and README - thorough and descriptive?
+
+
+Is there good spec coverage?
+*There is testing for validation, but not relationships between models. Also no integration specs.
+
+Do all specs pass?
+*Yes
+
+Is the application logic clear and easy to navigate?
+* Genres: Tabbing on genres/show... and genres/index unclear, but logic is nice and clean. Genres controller is nice and easy to understand.
+
+*Artists: Tabbing on artists/show... is unclear, but logic is very nice and clean. Artists controller is nice and neat and easy to follow.
+
+*Reviews:
+
+Is the site user-friendly?
+When you edit a band in a genre, it would be cool to be redirected to that genre's page instead of the list of all the genres. And when you delete a review to be redirected back to the band's page. Less clicking is friendly to us lazy people.
+
+Are there opportunities for refactoring?
+Everything was really simple and neat, so nothing jumped out at me.
+
+What features stand out?
+Really like that you added a third model!
+
+
+What features could be improved?
+The critique text_area could be labeled. I knew to put text in there, but it could be unclear for people who don't spend a lot of time online or doing these exercises over and over again.
+
+Do you have any additional constructive criticism or positive feedback to share?
+Changing the root route to genres#index or noting to start at localhost:3000/genres would be
+helpful for users.
+Everything seemed to stick to the conventions which made it easy to follow and the name is cool.
