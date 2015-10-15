@@ -19,7 +19,7 @@ Set-up 1.Clone to desktop
 
 ## Technologies Used
 
-_Ruby on Rails, HTML, SASS, Postgres, SQL, Rspec, Bootstrap_
+_Ruby on Rails, HTML, SASS, Postgres, SQL, Rspec, Bootstrap, ActiveRecord_
 
 ### Legal
 
